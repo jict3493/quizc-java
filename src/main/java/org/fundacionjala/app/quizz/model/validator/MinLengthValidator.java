@@ -4,7 +4,7 @@ import java.util.List;
 
 public class MinLengthValidator implements Validator {
 
-    private static final String ERROR_MESSAGE = "The value length must be less than ";
+    private static final String ERROR_MESSAGE = "The value length must be greater than ";
 
     @Override
     public void validate(String value, String conditionValueString, List<String> errors) {

@@ -2,8 +2,8 @@ package org.fundacionjala.app.quizz.model.configuration;
 
 import org.fundacionjala.app.quizz.model.validator.ValidatorType;
 
-public class TextConfiguration extends QuestionConfiguration {
-    public TextConfiguration() {
-        super(false, ValidatorType.REQUIRED, ValidatorType.MIN_LENGTH);
+public class NumericConfiguration extends QuestionConfiguration {
+    public NumericConfiguration() {
+        super(false, ValidatorType.REQUIRED, ValidatorType.MIN, ValidatorType.MAX);
     }
 }
